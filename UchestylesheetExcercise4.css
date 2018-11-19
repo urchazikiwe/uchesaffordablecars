@@ -1,0 +1,63 @@
+body {
+    background-color: #808080;
+    text-align: center;
+} 
+h1 {
+	font-family: Times New Roman;
+    color: navy;
+	font-size:3vw;
+} 
+nav {
+	font-family: Times New Roman;
+	font-size:3vw;
+} 
+p {
+	font-size:1vw;
+} 
+#p001 {
+	text-decoration: none;
+    text-align: right;
+	font-size:1vw;
+} 
+#p002 {
+    float: none;
+    color: maroon;
+	font-size:2vw;
+} 
+#p003 {
+	
+    float: none;
+    color: maroon;
+	font-size:2vw;
+} 
+#t001 {
+	font-style: oblique;
+	font-family: Georgia;
+	font-size:3vw;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*tablet*/
+@media screen and (min-width:768px) {
+  #t001 {
+	 font-size:2.5vw; 
+  }
+  h1, nav {
+    font-size:3vw;
+  }
+  p {
+	 font-size:1vw;  
+  }
+}
+/*laprop*/
+@media screen and (min-width:992px) {
+  #t001, h1, nav {
+    font-size:2vw;
+  }
+   p {
+	 font-size:1vw;  
+   }
+}
